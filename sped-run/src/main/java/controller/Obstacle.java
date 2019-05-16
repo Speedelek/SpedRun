@@ -35,7 +35,7 @@ public class Obstacle {
      */
     float obstacleSpeed;
     /**
-     * hova keruljon az akadaly
+     * Hova keruljon az akadaly.
      */
     int obsPoz;
 
@@ -101,12 +101,12 @@ public class Obstacle {
      * @return logikai ertek, amely megadja, hogy tortent e utkozes
      */
     public boolean isCollision(Character sped){
-        if(abs(sped.getPoz() + sped.getImg().getWidth() - obstacle.getX()) < 20 && abs(sped.getYpoz() + sped.getImg().getHeight() - obstacle.getY() - obstacle.getImage().getHeight()) <= 0){
+        if(abs(sped.getPoz() + sped.getImg().getWidth() - obstacle.getX()) < 10 && sped.getYpoz() == obstacle.getY()){//((sped.getYpoz() - obstacle.getY() < 5) || (sped.getYpoz() - obstacle.getY() < 5)) ){//abs(sped.getYpoz() + sped.getImg().getHeight() - obstacle.getY() - obstacle.getImage().getHeight()) <= 0){
             collision = true;
             sped.setAlive(false);
             return true;
         }
-        if(abs(sped.getPoz() + sped.getImg().getWidth() / 2 - obstacle.getX()) < 20 && abs(sped.getYpoz() + sped.getImg().getHeight() - obstacle.getY() - obstacle.getImage().getHeight()) <= 0 ){
+        if(abs(sped.getPoz() + sped.getImg().getWidth() / 2 - obstacle.getX()) < 10 && sped.getYpoz() == obstacle.getY()){//abs(sped.getYpoz() + sped.getImg().getHeight() - obstacle.getY() - obstacle.getImage().getHeight()) <= 0 ){
             collision = true;
             sped.setAlive(false);
             return true;

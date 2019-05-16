@@ -29,14 +29,14 @@ public class Input {
      * Ugras eseten a karakter poziciojanak megvaltoztatasa.
      */
     public void applyJump(){
-        sped.setYPoz(-52);
+        sped.setYPoz(-52.5);
     }
 
     /**
      * Eses eseten a karakter poziciojanak megvaltoztatasa.
      */
     public void applyFall(){
-        sped.setYPoz(52);
+        sped.setYPoz(52.5);
     }
 
     /**

@@ -52,16 +52,6 @@ public class DataBase {
         logger.info("Adatbazis kapcsolat OK");
     }
 
-    private static ScoreEntity readStudent(int id){
-        return em.find(ScoreEntity.class, id);
-    }
-   /* private static Student readStudentByNeptunID(String neptunID){
-        //TypedQuery<Student> query = em.createQuery("SELECT s FROM Student s WHERE s.neptunID='" + neptunID +"'",Student.class);
-        List<Student> result = query.getResultList();
-
-        return result.get(0);
-    }*/
-
     /**
      * Az adatbazis kapcsolat lezarasa.
      */

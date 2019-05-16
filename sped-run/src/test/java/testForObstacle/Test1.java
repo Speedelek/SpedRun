@@ -5,11 +5,8 @@ import javafx.stage.Stage;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import controller.Character;
-import org.junit.runner.RunWith;
 import org.testfx.framework.junit5.ApplicationTest;
-//import org.junit.Assert;
-//import org.junit.Before;
-//import org.junit.Test;
+
 
 import static org.junit.jupiter.api.Assertions.*;
 
