@@ -1,10 +1,12 @@
 package testForCharacter;
 
 import controller.Character;
-import org.junit.Assert;
-import org.junit.Test;
 
-public class Test3 {
+import org.junit.jupiter.api.Test;
+import org.testfx.framework.junit5.ApplicationTest;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class Test3 extends ApplicationTest{
     Character sped;
 
     public void init(){
@@ -17,6 +19,6 @@ public class Test3 {
     @Test
     public void testObstacleImageValidate(){
         System.out.println("image Test");
-        Assert.assertNotNull(sped.getImg());
+        assertNotNull(sped.getImg());
     }
 }

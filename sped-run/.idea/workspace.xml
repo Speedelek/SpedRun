@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4d9c411-5be8-46a5-b7d0-46edd30254c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestForDataBase/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestForDataBase/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sped-run.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sped-run.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Obstacle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/DataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bg1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testForObstacle/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testForObstacle/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/bg1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testForCharacter/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testForCharacter/Test3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,18 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/GameEngine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/Stage.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,59 +45,66 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/Input.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testForObstacle/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="845">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="5">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testForCharacter/package-info.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestForDataBase/Test4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/bg.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/test/java/testForObstacle/package-info.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/bg1.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testForCharacter/Test3.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testForInput/Test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="116">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testForInput/package-info.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestForDataBase/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testForInput/Test2.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testForCharacter/Test3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="63">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -159,7 +150,6 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/Obsticle.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/Window.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/Entity.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testForCharacter/Test3.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/package-info.java" />
@@ -178,6 +168,9 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/Stage.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/Obstacle.java" />
         <option value="$PROJECT_DIR$/src/test/java/testForObstacle/Test1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestForDataBase/Test4.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestForDataBase/package-info.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testForCharacter/Test3.java" />
       </list>
     </option>
   </component>
@@ -299,6 +292,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestForDataBase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sped-run" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sped-run" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testForInput" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -335,7 +336,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../extract/progtech/New folder/FlokeszWithOwnEngine-master/FlokeszOwnEngine" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -370,7 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.Test3">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="sped-run" />
@@ -380,14 +381,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in sped-run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sped-run" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -422,12 +415,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sped-run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testForCharacter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testForCharacter" />
+      <option name="MAIN_CLASS_NAME" value="testForCharacter.Test3" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sped-run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestForDataBase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestForDataBase" />
+      <option name="MAIN_CLASS_NAME" value="TestForDataBase.Test4" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.Test2" />
+        <item itemvalue="JUnit.Test3" />
         <item itemvalue="JUnit.Test1" />
-        <item itemvalue="JUnit.All in sped-run" />
+        <item itemvalue="JUnit.Test2" />
+        <item itemvalue="JUnit.Test4" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -457,29 +481,11 @@
       <workItem from="1557999957909" duration="11358000" />
       <workItem from="1558012710362" duration="3378000" />
       <workItem from="1558016880276" duration="5351000" />
-      <workItem from="1558034417106" duration="1848000" />
+      <workItem from="1558034417106" duration="3420000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test1 - 2019.05.16 at 16h 41m 33s.xml">
-      <configuration name="Test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test1 - 2019.05.16 at 16h 44m 15s.xml">
-      <configuration name="Test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test1 - 2019.05.16 at 16h 47m 03s.xml">
-      <configuration name="Test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test1 - 2019.05.16 at 16h 57m 18s.xml">
-      <configuration name="Test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test1 - 2019.05.16 at 17h 01m 49s.xml">
-      <configuration name="Test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test1 - 2019.05.16 at 17h 02m 43s.xml">
-      <configuration name="Test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test1 - 2019.05.16 at 17h 04m 08s.xml">
       <configuration name="Test1" configurationId="JUnit" />
     </history-entry>
@@ -492,19 +498,38 @@
     <history-entry file="Test2 - 2019.05.16 at 17h 11m 11s.xml">
       <configuration name="Test2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test4 - 2019.05.16 at 22h 12m 51s.xml">
+      <configuration name="Test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test2 - 2019.05.16 at 22h 15m 02s.xml">
+      <configuration name="Test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1 - 2019.05.16 at 22h 15m 11s.xml">
+      <configuration name="Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test3 - 2019.05.16 at 22h 15m 16s.xml">
+      <configuration name="Test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test3 - 2019.05.16 at 22h 15m 45s.xml">
+      <configuration name="Test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test3 - 2019.05.16 at 22h 17m 17s.xml">
+      <configuration name="Test3" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104897000" />
+    <option name="totallyTimeSpent" value="106469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="89" y="-9" width="1840" height="1098" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18197279" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.29478458" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32975295" />
@@ -514,7 +539,7 @@
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.21064061" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.3243824" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.19656284" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39957035" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -537,24 +562,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2-win.jar!/javafx/scene/Scene.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2657" column="22" selection-start-line="2657" selection-start-column="22" selection-end-line="2657" selection-end-column="22" />
-          <folding>
-            <element signature="e#96291#96292#0" expanded="true" />
-            <element signature="e#96345#96346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2-win.jar!/javafx/stage/Stage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/bg.png" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2-win.jar!/javafx/scene/layout/Pane.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -626,12 +633,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testForCharacter/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testForInput/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar!/org/junit/jupiter/api/AssertNotEquals.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -743,9 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testForObstacle/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/MyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -823,16 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testForObstacle/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -852,23 +840,52 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/bg1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testForCharacter/Test3.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestForDataBase/Test4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testForObstacle/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestForDataBase/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testForInput/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testForInput/Test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="116">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testForCharacter/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testForObstacle/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testForCharacter/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
