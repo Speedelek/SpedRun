@@ -45,7 +45,7 @@ public class Input {
     final EventHandler<KeyEvent> keyEventHandler =
             keyEvent -> {
             if(keyEvent.getCode() == KeyCode.W){
-                if(sped.getYpoz() > 0){
+                if(sped.getYpoz() > 250){
                 applyJump();
                 sped.setJump(true);
                 logger.info("Ugras megtortent");

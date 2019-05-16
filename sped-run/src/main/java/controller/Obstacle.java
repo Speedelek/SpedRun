@@ -5,6 +5,8 @@ import javafx.scene.image.ImageView;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.Random;
+
 import static java.lang.Math.abs;
 
 /**
@@ -32,6 +34,10 @@ public class Obstacle {
      * Az akadály mozgási sebessége.
      */
     float obstacleSpeed;
+    /**
+     * hova keruljon az akadaly
+     */
+    int obsPoz;
 
     /**
      * Az Obstacle osztaly konstruktora.
@@ -39,14 +45,27 @@ public class Obstacle {
      */
     public Obstacle(){
         logger.info("Obstacle osztaly konstruktora meghivva");
-       obstacleSpeed = -8;
-       //obstaclePozition = 1100;
+        Random rand = new Random();
+        obstacleSpeed = (rand.nextInt(12)+10)*-1;
+
+        Random randPoz = new Random();
+        obsPoz = randPoz.nextInt(2);
+
        obstacle = new ImageView();
        image = null;
-       image = new Image(getClass().getClassLoader().getResource("obstacles/cactus105.png").toString());
+        if(obsPoz == 0){
+            image = new Image(getClass().getClassLoader().getResource("obstacles/bird105.png").toString());
+        }else{
+            image = new Image(getClass().getClassLoader().getResource("obstacles/cactus105.png").toString());
+        }
        obstacle.setImage(image);
-       obstacle.setX(1100);
-       obstacle.setY(320);
+       obstacle.setX(1280);
+
+       if(obsPoz == 0){
+           obstacle.setY(215);
+       }else{
+           obstacle.setY(320);
+        }
        collision = false;
     }
 
