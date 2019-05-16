@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4d9c411-5be8-46a5-b7d0-46edd30254c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sped-run.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Obstacle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Character/TrexJump250w.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Character/TrexRun250w.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bg1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/obstacles/cactus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="c4d9c411-5be8-46a5-b7d0-46edd30254c8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/Obstacle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -335,7 +323,7 @@
       <workItem from="1557922179850" duration="21140000" />
       <workItem from="1557948351580" duration="3375000" />
       <workItem from="1557999957909" duration="11358000" />
-      <workItem from="1558012710362" duration="2297000" />
+      <workItem from="1558012710362" duration="2896000" />
     </task>
     <servers />
   </component>
@@ -372,7 +360,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96617000" />
+    <option name="totallyTimeSpent" value="97216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="89" y="-9" width="1840" height="1098" extended-state="6" />
@@ -741,7 +729,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/Obstacle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
