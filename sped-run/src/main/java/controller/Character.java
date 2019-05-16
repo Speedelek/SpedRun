@@ -2,9 +2,17 @@ package controller;
 
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-
+/**
+ * A fo karakterunkhoz tartozo osztaly.
+ */
 public class Character {
+    /**
+     * A naplozasert felelos logger peldanyositasa.
+     */
+    private static Logger logger = LoggerFactory.getLogger(GameEngine.class);
     /**
      * A jatekos kepet tartalmazza.
      */
@@ -14,10 +22,12 @@ public class Character {
      */
     Image image;
     /**
-     *
+     * Fut e a jatekos.
      */
     boolean run = false;
-
+    /**
+     * Eletben van e a jatekos.
+     */
     boolean alive = true;
     /**
      * Ugrig e a karakter.
@@ -31,7 +41,12 @@ public class Character {
      */
     int counter;
 
+    /**
+     * A karakterunk konstruktora.
+     * A karakter kezo kepe es poziciojanak beallitasa.
+     */
     public Character(){
+        logger.info("Karakter konstruktora meghivva");
         counter = 0;
         image = null;
         image = new Image(getClass().getClassLoader().getResource("Character/TrexRun250.gif").toString());
@@ -40,18 +55,34 @@ public class Character {
         player.setY(320);
     }
 
+    /**
+     * Logikai ertek amely megmondja, hogy fut e a jatekos.
+     * @return Fut e a jatekos
+     */
     public boolean isRun() {
         return run;
     }
 
+    /**
+     * Atallithatjuk, hogy Fut e a jatekos.
+     * @param run logikai valtozoja a futasnak
+     */
     public void setRun(boolean run) {
         this.run = run;
     }
 
+    /**
+     * Logikai erteket ad vissza, amely megmondja, hogy ugrik e a jatekos.
+     * @return ugras logikai erteke
+     */
     public boolean isJump() {
         return jump;
     }
 
+    /**
+     * Atallithatjuk az ugras logikai erteket, ha ugrunk.
+     * @param jump az ugras erteke
+     */
     public void setJump(boolean jump) {
         this.jump = jump;
     }
@@ -72,16 +103,8 @@ public class Character {
         counter++;
     }
 
-    /*public boolean isPass() {
-        return pass;
-    }
-
-    public void setPass(boolean pass) {
-        this.pass = pass;
-    }*/
-
     /**
-     * Visszaadja, a logikai erteket, hogy el e a karakterunk
+     * Visszaadja, a logikai erteket, hogy el e a karakterunk.
      * @return el e a karakterunk
      */
     public boolean isAlive() {
@@ -125,7 +148,7 @@ public class Character {
     public Image getImg(){return image;}
 
     /**
-     * A karakter y koordinatajanak megkapasa
+     * A karakter y koordinatajanak megkapasa.
      * @return y koordinatajanak pozicioja
      */
     public double getYpoz(){return player.getY();}

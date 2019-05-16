@@ -1,8 +1,17 @@
 package controller;
 
 import javafx.scene.image.Image;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+/**
+ * A palyank osztalya amin a karakter es akadaly van.
+ */
 public class Stage {
+    /**
+     * A naplozasert felelos logger peldanyositasa.
+     */
+    private static Logger logger = LoggerFactory.getLogger(GameEngine.class);
     /**
      * Hatterkep.
      */
@@ -16,6 +25,7 @@ public class Stage {
      * Az osztaly konstruktora.
      */
     public Stage(){
+        logger.info("Stage konstruktora meghivva");
         obstacle = new Obstacle();
         image = new Image(getClass().getClassLoader().getResource("bg1.png").toString());
     }

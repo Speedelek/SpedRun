@@ -1,18 +1,23 @@
 package database;
 
+import controller.GameEngine;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import javax.persistence.*;
-import java.util.List;
 
+/**
+ * Az adatbazis kezelo osztaly.
+ */
 public class DataBase {
-
     /**
-     * Osztalyelem peldanyositasa.
+     * A naplozasert felelos logger peldanyositasa.
+     */
+    private static Logger logger = LoggerFactory.getLogger(GameEngine.class);
+    /**
+     * Az osztaly peldanyositasa.
      */
     private static final DataBase DB_PELDANY = new DataBase();
-    /*
-     * Az adatbazis nevet kapja meg
-     */
-    //private static EntityManagerFactory emFactory;
     /**
      * Az adatbazis neve.
      */
@@ -23,41 +28,42 @@ public class DataBase {
     private EntityManager em;
 
     /**
-     * Privát konstruktor.
+     * Private konstruktor.
      */
     private DataBase() {
     }
 
     /**
-     * Aktiális DB szingleton példány lekérése.
-     *
+     * A DB szingleton példány lekérése.
      * @return singleton példány referencia
      */
     public static DataBase getDbPeldany() {
         return DB_PELDANY;
     }
 
+    /**
+     * Az adatbazis kapcsolat letrehozasa.
+     * @throws Exception kivetel
+     */
     public void connectDB() throws Exception {
-        //persistence.xml-ben fontos, hogy megegyezzen a persistence-unit name ezzel, jelen esetben 'database'
         EntityManagerFactory emFactory = Persistence.createEntityManagerFactory("jpa-persistence-unit-1");
         em = emFactory.createEntityManager();
-        //log.trace("Adatbázis kapcsolat OK.");
+        logger.info("Adatbazis kapcsolat OK");
     }
 
     /**
-     * Adatbáziskapcsolat lezárása JPA-val.
+     * Az adatbazis kapcsolat lezarasa.
      */
     public void disconnectDB() {
         if (connected()) {
             em.close();
-            //log.trace("Disconnect OK.");
+            logger.info("Disconnected");
         }
         em = null;
     }
 
     /**
-     * EntityManager él és csatlakoztatva van az adatbázishoz?
-     *
+     * Letre van e hozva a kapcsolat.
      * @return logikai ertek
      */
     public boolean connected() {
@@ -67,7 +73,7 @@ public class DataBase {
 
 
     /**
-     * Az eredmeny generalasa
+     * Az eredmeny generalasa.
      * @param score eredmenyunk
      * @param runTime jatekido
      */
@@ -79,23 +85,8 @@ public class DataBase {
         em.persist(scoreEntity);
 
         em.getTransaction().commit();
+
+        logger.info("Score created");
     }
 
-    //elsodleges kulcs szerinti kereses
-    public ScoreEntity readScore(int id) {
-        return em.find(ScoreEntity.class, id);
-    }
-
-    /*private ScoreEntity readScoreByrunTime(float runTime) {
-        TypedQuery<ScoreEntity> query = em.createQuery("SELECT s FROM ScoreEntity s WHERE s.neptunID='" + neptunID + "'", Student.class);
-        List<Student> result = query.getResultList();
-
-        return result.get(0);
-    }*/
-
-     private void deleteStudent(ScoreEntity scoreEntity) {
-        em.getTransaction().begin();
-        em.remove(scoreEntity);
-        em.getTransaction().commit();
-    }
 }

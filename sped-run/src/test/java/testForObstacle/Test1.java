@@ -1,10 +1,13 @@
 package testForObstacle;
 
 import controller.Obstacle;
+import org.junit.jupiter.api.Test;
 import controller.Character;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+//import org.junit.Assert;
+//import org.junit.Before;
+//import org.junit.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class Test1 {
     Obstacle obstacle;
@@ -21,7 +24,7 @@ public class Test1 {
     @Test
     public void testObstacleImageValidate(){
         System.out.println("image Test");
-        Assert.assertNotNull(obstacle.getImage());
+        assertNotNull(obstacle.getImage());
     }
 
     /**
@@ -38,7 +41,7 @@ public class Test1 {
         if(pozitionTrexX == pozitionObsX && pozitionObsY == pozitionTrexY){
             nCol = false;
         }
-        Assert.assertFalse(nCol);
+        assertFalse(nCol);
     }
 
     /**
@@ -55,7 +58,7 @@ public class Test1 {
         if(pozitionTrexX == pozitionObsX && pozitionObsY == pozitionTrexY){
             nCol = false;
         }
-        Assert.assertTrue(nCol);
+        assertTrue(nCol);
     }
 
     /**
@@ -72,7 +75,7 @@ public class Test1 {
         if(pozitionTrexX == pozitionObsX && pozitionObsY == pozitionTrexY){
             nCol = false;
         }
-        Assert.assertTrue(nCol);
+        assertTrue(nCol);
     }
 
     /**
@@ -89,6 +92,6 @@ public class Test1 {
         if(pozitionTrexX == pozitionObsX && pozitionObsY == pozitionTrexY){
             nCol = false;
         }
-        Assert.assertTrue(nCol);
+        assertTrue(nCol);
     }
 }

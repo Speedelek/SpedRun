@@ -2,13 +2,18 @@ package testForInput;
 
 import controller.Input;
 import controller.Character;
-import org.junit.Assert;
-import org.junit.Test;
+
+import org.junit.Before;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class Test2 {
     Input input;
     Character sped;
+    double pozition1, pozition2;
 
+    @Before
     public void init(){
         sped = new Character();
         input = new Input(sped);
@@ -20,10 +25,12 @@ public class Test2 {
     @Test
     public void testJump(){
         System.out.println("Test applyJump");
-        Double pozition1 = sped.getYpoz();
+        //pozition1 = sped.getPlayer().getY();
+        //System.out.println(pozition1+"2");
         input.applyFall();
-        Double pozition2 = sped.getYpoz();
-        Assert.assertNotEquals(pozition1, pozition2);
+        pozition2 = sped.getPlayer().getY();
+        //.out.println(pozition2+ "asdasd");
+        assertNotEquals(320, pozition2);
     }
 
     /**
@@ -35,7 +42,7 @@ public class Test2 {
         Double pozition1 = sped.getYpoz();
         input.applyJump();
         Double pozition2 = sped.getYpoz();
-        Assert.assertNotEquals(pozition1, pozition2);
+        assertNotEquals(pozition1, pozition2);
     }
 
 }

@@ -5,14 +5,17 @@ import javafx.animation.AnimationTimer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import view.Window;
-import main.Main;
+
+/**
+ * A jatek MainLoopjat tartalmazo osztaly.
+ */
 public class GameEngine {
     /**
-     * Az adatbaziskezelo peldanyositasa
+     * Az adatbaziskezelo peldanyositasa.
      */
     private static final DataBase DB = DataBase.getDbPeldany();
     /**
-     * A naplozasert felelos logger peldanyositasa
+     * A naplozasert felelos logger peldanyositasa.
      */
     private static Logger logger = LoggerFactory.getLogger(GameEngine.class);
     /**
@@ -77,17 +80,15 @@ public class GameEngine {
 
                     stage.update(sped);
                 }else{
-
                     logger.info("A jatek vege");
-                    window.getBg().setOpacity(0.2);
-
+                    window.getBg().setOpacity(0.1);
 
                     try {
 
                         DB.connectDB();
                         DB.createScore(scoreCounter,t);
                         DB.disconnectDB();
-                        logger.info("Adatbazis letrehozasa");
+                        logger.info("Az eredmeny az adatbazisba bekerult");
 
                     } catch (Exception e) {
                         e.printStackTrace();
