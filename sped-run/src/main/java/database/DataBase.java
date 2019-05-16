@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.persistence.*;
+import java.util.List;
 
 /**
  * Az adatbazis kezelo osztaly.
@@ -25,7 +26,7 @@ public class DataBase {
     /**
      * EntityManager letrehozasa.
      */
-    private EntityManager em;
+    private static EntityManager em;
 
     /**
      * Private konstruktor.
@@ -50,6 +51,16 @@ public class DataBase {
         em = emFactory.createEntityManager();
         logger.info("Adatbazis kapcsolat OK");
     }
+
+    private static ScoreEntity readStudent(int id){
+        return em.find(ScoreEntity.class, id);
+    }
+   /* private static Student readStudentByNeptunID(String neptunID){
+        //TypedQuery<Student> query = em.createQuery("SELECT s FROM Student s WHERE s.neptunID='" + neptunID +"'",Student.class);
+        List<Student> result = query.getResultList();
+
+        return result.get(0);
+    }*/
 
     /**
      * Az adatbazis kapcsolat lezarasa.

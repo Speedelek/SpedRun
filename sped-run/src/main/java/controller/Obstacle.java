@@ -46,7 +46,7 @@ public class Obstacle {
     public Obstacle(){
         logger.info("Obstacle osztaly konstruktora meghivva");
         Random rand = new Random();
-        obstacleSpeed = (rand.nextInt(12)+10)*-1;
+        obstacleSpeed = (rand.nextInt(8)+8)*-1;
 
         Random randPoz = new Random();
         obsPoz = randPoz.nextInt(2);
@@ -101,12 +101,12 @@ public class Obstacle {
      * @return logikai ertek, amely megadja, hogy tortent e utkozes
      */
     public boolean isCollision(Character sped){
-        if(abs(sped.getPoz() + sped.getImg().getWidth() - obstacle.getX()) < 5 && abs(sped.getYpoz() + sped.getImg().getHeight() - obstacle.getY() - obstacle.getImage().getHeight()) <= 0){
+        if(abs(sped.getPoz() + sped.getImg().getWidth() - obstacle.getX()) < 20 && abs(sped.getYpoz() + sped.getImg().getHeight() - obstacle.getY() - obstacle.getImage().getHeight()) <= 0){
             collision = true;
             sped.setAlive(false);
             return true;
         }
-        if(abs(sped.getPoz() + sped.getImg().getWidth() / 2 - obstacle.getX()) < 5 && abs(sped.getYpoz() + sped.getImg().getHeight() - obstacle.getY() - obstacle.getImage().getHeight()) <= 0 ){
+        if(abs(sped.getPoz() + sped.getImg().getWidth() / 2 - obstacle.getX()) < 20 && abs(sped.getYpoz() + sped.getImg().getHeight() - obstacle.getY() - obstacle.getImage().getHeight()) <= 0 ){
             collision = true;
             sped.setAlive(false);
             return true;

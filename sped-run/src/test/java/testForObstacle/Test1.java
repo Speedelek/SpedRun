@@ -1,18 +1,23 @@
 package testForObstacle;
 
 import controller.Obstacle;
+import javafx.stage.Stage;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import controller.Character;
+import org.junit.runner.RunWith;
+import org.testfx.framework.junit5.ApplicationTest;
 //import org.junit.Assert;
 //import org.junit.Before;
 //import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class Test1 {
+public class Test1 extends ApplicationTest {
     Obstacle obstacle;
     Character sped;
 
+    @BeforeEach
     public void init(){
         obstacle = new Obstacle();
         sped = new Character();

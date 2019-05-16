@@ -5,10 +5,11 @@ import controller.Character;
 
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
+import org.testfx.framework.junit5.ApplicationTest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class Test2 {
+public class Test2 extends ApplicationTest {
     Input input;
     Character sped;
     double pozition1, pozition2;
